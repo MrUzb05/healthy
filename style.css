@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #1A1A1A;
+}
+
+header {
+    border-bottom: 1px solid white;
+
+}
+main{
+    background: #1A1A1A;
+}
+
+.header-content {
+    height: 90px;
+    align-items: center;
+}
+
+ul li a {
+    text-decoration: none;
+
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90px;
+    /* 642.857% */
+}
+
+
+/* birinchi section */
+
+
+#birinchi {
+    background: url('img/img/bg.png') no-repeat center;
+}
+
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+}
+
+h1 span {
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 7.2px;
+    text-transform: capitalize;
+}
+
+
+.birinchi-title {
+    width: 1100px;
+    margin: 0 auto;
+
+    padding: 80px 0 16px;
+}
+
+
+.small-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    /* 162.5% */
+    letter-spacing: -0.2px;
+
+
+    width: 500px;
+    margin: 0 auto;
+}
+
+.birinchi-btn {
+    margin: 40px auto 70px;
+    width: 220px;
+}
+
+.birinchi-btn button {
+    border-radius: 43px;
+    background: #34C759;
+    width: 220px;
+    height: 72px;
+
+
+    border: none;
+
+
+    color: var(--black, #1A1A1A);
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 3.6px;
+}
+
+
+
+.contact-cards {
+    padding-bottom: 160px;
+}
+
+
+.contact-card {
+    width: 215px;
+}
+
+
+
+.card-info {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 187.5% */
+}
+
+.card-info2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    /* 428.571% */
+}
+
+
+/* tortinchi section*/
+
+.tortinchi-content {
+    margin-top: 120px;
+}
+
+.tortinchi-title {
+    background: url('img/img/EVENTS.png') no-repeat center;
+}
+
+.tortinchi-title h2 {
+    color: #D9D9D9;
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 90px;
+    /* 250% */
+    letter-spacing: 7.2px;
+}
+
+
+
+
+
+
+.card-meal {
+    width: 350px;
+height: 0 auto;
+gap: 30px;
+
+    border-radius: 6px;
+    background: #252525;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.10);
+}
+
+
+.card-content {
+    padding: 0 30px 0 30px;
+
+}
+
+
+
+.meal-title {
+
+    margin: 30px 0 36px;
+
+}
+
+.meal-title h3 {
+    color: #D9D9D9;
+    font-family: Helvetica Neue;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 93.75% */
+}
+
+.title-info {
+    color: #A4A8B2;
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    /* 133.333% */
+    letter-spacing: -0.15px;
+}
+
+.meal-info {
+    color: #85878C;
+    font-family: Helvetica Neue;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 138.462% */
+    letter-spacing: -0.162px;
+
+    margin: 20px 0;
+}
+
+
+.card-rating {
+    padding-bottom: 24px;
+}
+
+
+.meal-btn button {
+    background-color: #34C759;
+
+    width: 100px;
+    height: 40px;
+
+    border: none;
+    border-radius: 30px;
+
+
+    color: var(--dark-gray, #252525);
+    text-align: center;
+    font-family: Helvetica Neue;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40px;
+    /* 400% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+/*beshinchi section*/
+.beshinchi{
+background: url('img/EVENT.png') no-repeat center;
+}
+.besinchi-content{
+    display: inline-flex;
+    gap: 30px;
+}
+.beshinchi-title{
+    background: url('img/eventt.png') no-repeat center;
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+}
+.breakfast{
+    background: url('img/place.png' )  no-repeat center ; width: 540px;
+    height: 510px;
+    color: #FFF;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 10px;
+font-style: normal;
+font-weight: 900;
+line-height: 25px; /* 250% */
+letter-spacing: 1.25px;
+text-transform: uppercase;
+}
+.breakfast1{
+    margin: 60 240.5 425 241.5;
+}
+.breakfast2{
+    margin: 150 234 330 233;
+}
+.smallbreakfast2{
+    color: #FFF;
+font-family: Helvetica Neue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+}
+.smallbreakfast3{
+    color: #B3B3B3;
+font-family: Helvetica Neue;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 208.333% */
+}
+.smallbreakfast{
+    background: url('img/smallbreakfast.png'); width: 540px;
+    height: 150px;
+}
+.smallbreakfast4{
+    background: url('img/place6.png') no-repeat center;width: 540px; height: 150px;
+}
+.smallbreakfast5{
+    color: #FFF;
+    font-family: Helvetica Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+width: 499px;
+}
+.smallbreakfast6{
+    color: #B3B3B3;
+font-family: Helvetica Neue;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 25px; /* 208.333% */
+}
+.smallbreakfast7{
+background: url('img/place7.png') no-repeat center;width: 540px; height: 150px;
+
+}
+.smallbreakfast8{
+    color: var(--dark-gray, #252525);
+font-family: Helvetica Neue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 187.5% */
+width: 452px;
+}
+.smallbreakfast9{
+    color: var(--black, #1A1A1A);
+    font-family: Helvetica Neue;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 208.333% */
+}
+.container1{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.container2{
+    width: 540px;
+    height:  auto;
+    margin-right: 300px;
+}
+.container3{
+    width:540px;
+    height: 150px;
+    gap: 30px;
+}
+.container4{
+    margin-top: 300px;
+    padding: right 200px; ;
+}
+/* oltinchi section */
+.oltinchi-title{
+    background: url('img/SOCIAL.png') no-repeat center;
+    color: #D9D9D9;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: 90px; /* 250% */
+letter-spacing: 7.2px;
+}
+footer{
+    fill: #252525;
+filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.10));
+}
+.footer-text{
+    margin-top: 240px;
+    color: #737373;
+text-align: center;
+font-family: Helvetica Neue;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 60px; /* 500% */
+}
+.img-footer{
+    margin-top: 220px;
+}
